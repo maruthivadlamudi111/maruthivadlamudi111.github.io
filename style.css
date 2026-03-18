@@ -1,43 +1,88 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #111;
-    color: white;
+/* CONTACT SECTION */
+.contact-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
-section {
-    background: white;
-    margin: 20px auto;
-    padding: 30px;
-    width: 80%;
+/* TITLE */
+.contact-section h2 {
+    color: #e63946;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.subtitle {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* ICONS */
+.icons {
+    margin-bottom: 25px;
+}
+
+.icons a {
+    margin: 0 10px;
+    font-size: 22px;
+    background: #ffe5e5;
+    padding: 10px 12px;
     border-radius: 8px;
-}
-
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style-type: square;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-a {
-    color: #0077cc;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+/* FORM BOX */
+.form-container {
+    width: 60%;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FORM ELEMENTS */
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* INPUTS */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* TEXTAREA HEIGHT */
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* BUTTON */
+form button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #4a90e2, #357abd);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+form button:hover {
+    opacity: 0.9;
 }

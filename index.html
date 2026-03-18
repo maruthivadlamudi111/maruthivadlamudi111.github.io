@@ -1,64 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Maruthi | ML Portfolio</title>
+    <title>Maruthi Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Maruthi Vadlamudi</h1>
-        <p>Aspiring Machine Learning Engineer</p>
-    </header>
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Maruthi</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a Machine Learning enthusiast with experience in building predictive models.
-            Passionate about AI, Data Science, and real-world problem solving.
-        </p>
-    </section>
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Maruthi</span></h1>
+    <p>Aspiring Machine Learning Engineer</p>
+</section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Pandas & NumPy</li>
-            <li>Scikit-learn</li>
-            <li>Machine Learning</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am passionate about Machine Learning and building real-world applications.
+        I enjoy solving problems using data and continuously learning new technologies.
+    </p>
+</section>
 
-    <section>
-        <h2>Projects</h2>
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div>Python</div>
+        <div>Pandas</div>
+        <div>NumPy</div>
+        <div>Scikit-learn</div>
+        <div>Machine Learning</div>
+        <div>Git</div>
+    </div>
+</section>
 
-        <div class="project">
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="card">
             <h3>Loan Default Prediction</h3>
-            <p>
-                Developed a machine learning model to predict loan defaults
-                using classification algorithms.
-            </p>
+            <p>ML model to predict loan defaults using classification algorithms.</p>
         </div>
 
-        <div class="project">
+        <div class="card">
             <h3>Fraud Detection System</h3>
-            <p>
-                Working on a fraud detection model handling imbalanced datasets
-                using supervised learning techniques.
-            </p>
+            <p>Fraud detection model handling imbalanced datasets.</p>
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: vadlammi@mail.uc.edu</p>
-        <p>
-            <a href="https://github.com/maruthivadlamudi111" target="_blank">GitHub</a> |
-            <a href=https://www.linkedin.com/in/maruthi-vadlamudi1/ target="_blank">LinkedIn</a>
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="contact-title">Get In Touch</h2>
+    <p class="contact-subtitle">
+        Do you have a project I can help you with? Let’s talk about it.
+    </p>
+
+    <!-- SOCIAL ICONS -->
+    <div class="contact-icons">
+        <a href="#"><span>📧</span></a>
+        <a href="#"><span>🐱</span></a>
+        <a href="#"><span>🔗</span></a>
+    </div>
+
+    <!-- FORM -->
+    <form class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Message</label>
+        <textarea placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p class="subtitle">
+            Do you have a project I can help you with? Let’s talk about it.
         </p>
+    
+        <!-- ICONS -->
+        <div class="icons">
+            <a href="#">📧</a>
+            <a href="#">🐱</a>
+            <a href="#">🔗</a>
+        </div>
+    
+        <!-- FORM -->
+        <div class="form-container">
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your full name">
+    
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+    
+                <label>Message</label>
+                <textarea placeholder="Write your message"></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
 </body>
